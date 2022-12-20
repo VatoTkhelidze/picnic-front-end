@@ -15,7 +15,7 @@ function App() {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("picnic-backend-production-aeac.up.railway.app");
+      const response = await axios.get("https://picnic-back-end-production.up.railway.app/");
       setData(response.data);
     } catch (error) {}
   };
